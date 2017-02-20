@@ -7,5 +7,6 @@ namespace Angrid_Api.Repository
 {
     public class UtilisateurRepository
     {
+        int x;
     }
 }
