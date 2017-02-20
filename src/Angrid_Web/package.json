@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "name": "promogim.web.mainwebapp",
+  "main": "brunch-config.js",
+  "scripts": {
+    "dev": "set LOGGY_STACKS=true && brunch watch",
+    "test": "jest",
+    "watch:test": "jest --watch",
+    "publish-for-iis": "npm run build-production && dotnet publish -c Release"
+  },
+  "devDependencies": {
+    "brunch": "^2.10.6",
+    "clean-css-brunch": "^2.0.0",
+    "sass-brunch": "^2.9.0",
+    "uglify-js-brunch": "^2.0.1",
+    "angularjs-templates-brunch": "^1.0.0",
+    "babel-brunch": "^6.0.6",
+    "js-string-escape": "^1.0.1",
+
+    "babel-plugin-angularjs-annotate": "^0.7.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-es2015-destructuring": "^6.19.0",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-1": "^6.16.0",
+
+    "jest": "^18.1.0",
+    "jest-cli": "^18.1.0",
+    "babel-jest": "^18.0.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-ui-router": "1.0.0-rc.1",
+    "bootstrap": "^3.3.7"
+  }
+}
