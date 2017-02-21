@@ -1,5 +1,5 @@
---temp-output:C:\Users\Thomas VIGER\documents\visual studio 2015\Projects\Angrid\src\Angrid_Web\obj\Debug\netcoreapp1.0\
---out:C:\Users\Thomas VIGER\documents\visual studio 2015\Projects\Angrid\src\Angrid_Web\bin\Debug\netcoreapp1.0\Angrid_Web.dll
+--temp-output:E:\Dev\Angrid\src\Angrid_Web\obj\Debug\netcoreapp1.0\
+--out:E:\Dev\Angrid\src\Angrid_Web\bin\Debug\netcoreapp1.0\Angrid_Web.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -123,6 +123,6 @@
 --reference:C:\Users\Thomas VIGER\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Thomas VIGER\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Thomas VIGER\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\Thomas VIGER\documents\visual studio 2015\Projects\Angrid\src\Angrid_Web\obj\Debug\netcoreapp1.0\Angrid_Webdotnet-compile.deps.json",Angrid_Web.deps.json
-C:\Users\Thomas VIGER\documents\visual studio 2015\Projects\Angrid\src\Angrid_Web\Program.cs
-C:\Users\Thomas VIGER\documents\visual studio 2015\Projects\Angrid\src\Angrid_Web\Startup.cs
+--resource:"E:\Dev\Angrid\src\Angrid_Web\obj\Debug\netcoreapp1.0\Angrid_Webdotnet-compile.deps.json",Angrid_Web.deps.json
+E:\Dev\Angrid\src\Angrid_Web\Program.cs
+E:\Dev\Angrid\src\Angrid_Web\Startup.cs
