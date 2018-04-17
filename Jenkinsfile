@@ -15,12 +15,7 @@ pipeline {
             }
         }
     }
-    stage('Test Graphique') {
-            steps {
-                sh './jenkins/scripts/test.sh'
-            }
-        }
-    stage('Test Metier') {
+    stage('Test') {
             steps {
                 sh './jenkins/scripts/test.sh'
             }
