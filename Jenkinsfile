@@ -12,4 +12,14 @@ pipeline {
             }
         }
     }
+    stage('Test Graphique') {
+            steps {
+                sh './jenkins/scripts/test.sh'
+            }
+        }
+    stage('Test Metier') {
+            steps {
+                sh './jenkins/scripts/test.sh'
+            }
+        }
 }
